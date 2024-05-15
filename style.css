@@ -3,27 +3,31 @@ body {
   font-family: cursive;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #container {
-  display: block;
   background-color: wheat;
   margin: 30px 20px;
   padding: 20px 0;
-  max-width: 600px;
+  max-width: 1000px;
   border-radius: 5px;
+  width: 100vh;
+  height: 85vh;
 }
 
 h1 {
   padding: 10px;
   margin: 0;
-  color: rgb(40, 56, 40);
+  color: rgb(66, 95, 66);
   text-align: center;
 }
 
-#list {
+#listSection {
   background-color: #fff;
-  border-radius: 5px;
   padding: 10px 20px;
+  height: 70vh;
 }
 #inputBotao {
   display: flex;
@@ -56,8 +60,17 @@ button:hover {
   cursor: pointer;
   background-color: rgb(66, 95, 66);
 }
+#list {
+  display: flex;
+  justify-content: center;
+  box-sizing: 50px 25px;
+}
 
 #taskList {
   list-style: none;
   padding: 0;
+}
+
+li {
+  border: 2px solid rgb(108, 150, 108);
 }
