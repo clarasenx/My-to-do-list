@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(108, 150, 108);
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  display: block;
+  background-color: wheat;
+  margin: 30px 20px;
+  padding: 20px 0;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+h1 {
+  padding: 10px;
+  margin: 0;
+  color: rgb(40, 56, 40);
+  text-align: center;
+}
+
+#list {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+#inputBotao {
+  display: flex;
+  justify-content: center;
+}
+#taskInput {
+  border: ridge;
+  border-color: wheat;
+  padding: 5px 10px;
+  background-color: rgb(108, 150, 108);
+  color: #fff;
+  margin-right: 5px;
+}
+input::placeholder {
+  color: #fff;
+}
+#taskInput:focus {
+  outline-style: none;
+  background-color: rgb(66, 95, 66);
+}
+
+button {
+  border: ridge;
+  border-color: wheat;
+  background-color: rgb(108, 150, 108);
+  color: #fff;
+  padding: 5px 10px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(66, 95, 66);
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
